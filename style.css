@@ -1,0 +1,17 @@
+*{
+    font-family: "Poppins", sans-serif !important;
+}
+.voilet{
+    color: oklch(.606 .25 292.717) !important;
+}
+.blue{
+    color: oklch(.623 .214 259.815) !important;
+}
+.green{
+    color: oklch(.704 .14 182.503) !important;
+}
+
+
+.margin-b{
+    margin-bottom: 70px;
+}
