@@ -1,6 +1,9 @@
 *{
     font-family: "Poppins", sans-serif !important;
 }
+p{
+    color: oklch(.556 0 0);
+}
 .voilet{
     color: oklch(.606 .25 292.717) !important;
 }
@@ -14,4 +17,46 @@
 
 .margin-b{
     margin-bottom: 70px;
+}
+
+.about-btn{
+    border: 1px solid black;
+    border-radius: 40px;
+    display: inline-block;
+    width: 230px;
+    padding: 8px 10px 0px 20px;
+}
+
+.title h1{
+    font-weight: 600;
+}
+
+
+.languages{
+    transition: all 0.9s !important;
+}
+.languages:hover{
+    scale: 1.1;
+}
+
+
+
+
+
+.btn-1{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all 0.6s !important;
+}
+.btn-1:hover{
+    scale: 1.1;
+}
+
+.btn-2{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all 0.6s !important;
+}
+.btn-2:hover{
+    scale: 1.1;
 }
