@@ -14,10 +14,21 @@ p{
     color: oklch(.704 .14 182.503) !important;
 }
 
-
 .margin-b{
     margin-bottom: 70px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .about-btn{
     border: 1px solid black;
@@ -31,17 +42,12 @@ p{
     font-weight: 600;
 }
 
-
 .languages{
     transition: all 0.9s !important;
 }
 .languages:hover{
     scale: 1.1;
 }
-
-
-
-
 
 .btn-1{
     border-radius: 10px;
@@ -59,4 +65,13 @@ p{
 }
 .btn-2:hover{
     scale: 1.1;
+}
+.services{
+   transition: all 0.8s !important;
+}
+.services:hover{
+    scale: 1.1;
+}
+.p1:hover{
+    color: oklch(.606 .25 292.717) !important;
 }
