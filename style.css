@@ -15,7 +15,7 @@ p{
 }
 
 .margin-b{
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 
@@ -28,13 +28,12 @@ p{
 
 
 
-
+/* <------------------------------ section 1 start ------------------------------> */
 
 .about-btn{
     border: 1px solid black;
     border-radius: 40px;
     display: inline-block;
-    width: 230px;
     padding: 8px 10px 0px 20px;
 }
 
@@ -75,3 +74,13 @@ p{
 .p1:hover{
     color: oklch(.606 .25 292.717) !important;
 }
+/* <------------------------------ section 1 end ------------------------------> */
+
+
+
+
+
+
+/* <------------------------------ about me start ------------------------------> */
+
+/* <------------------------------ about me end ------------------------------> */
