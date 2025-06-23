@@ -30,14 +30,16 @@ p{
 }
 
 .border-1{
-    border-color: color-mix(in oklab, rgb(212, 43, 43) 100%);
+    border-color:oklch(.439 0 0) !important;
 }
 
 .nav-bg{
     /* background-color: oklch(.145 0 0) !important; */
     background-color: color-mix(in oklab, black 60%,transparent) !important;
 }
-
+.w-30{
+    width: 35%;
+}
 
 
 
@@ -139,4 +141,30 @@ p{
 .inp-bg{
     background-color: color-mix(in oklab, oklch(.145 0 0) 50%, #00000000) !important;
 }
+.content-box{
+   background-color: color-mix(in oklab, oklch(.145 0 0) 60%, #00000000) !important; 
+}
+.content-info-text:hover{
+    color: white !important;
+}
 /* <------------------------------ contact end ------------------------------> */
+
+
+
+
+/* <------------------------------ footer start ------------------------------> */
+.footer-text{
+    color: oklch(.708 0 0) !important;
+}
+
+.footer-text:hover{
+    color: oklch(70.2% .183 293.541) !important;
+}
+
+.footer-icon{
+    color: oklch(.708 0 0) !important;
+}
+.footer-icon:hover{
+    color: white !important;
+}
+/* <------------------------------ footer end ------------------------------> */
