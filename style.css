@@ -1,8 +1,7 @@
 
 .body{
-    background-color: rgba(0, 0, 0, 0.932);
-    color: white;
-     font-family: "Poppins", sans-serif !important;
+    color: oklch(.145 0 0) !important;
+    font-family: "Poppins", sans-serif !important;
 }
 p{
     color: oklch(.708 0 0) !important;
@@ -26,28 +25,30 @@ p{
 }
 
 .nav-text{
-    color: rgba(255, 255, 255, 0.822) !important;
+    color: oklch(.145 0 0) !important;
 }
 
 .border-1{
     border-color:oklch(.439 0 0) !important;
 }
-
-.nav-bg{
-    /* background-color: oklch(.145 0 0) !important; */
-    background-color: color-mix(in oklab, black 60%,transparent) !important;
-}
 .w-30{
     width: 35%;
 }
 
-
+.navbar{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: rgba(255, 255, 255, 0.884);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
 
 
 /* <------------------------------ section 1 start ------------------------------> */
 
 .about-btn{
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 40px;
     display: inline-block;
     padding: 8px 10px 0px 20px;
@@ -100,10 +101,6 @@ p{
     scale: 1.1;
 }
 
-.p1:hover{
-    color: oklch(70.2% .183 293.541) !important;
-}
-
 /* <------------------------------ section 1 end ------------------------------> */
 
 
@@ -138,15 +135,9 @@ p{
 
 
 /* <------------------------------ contact start ------------------------------> */
-.inp-bg{
-    background-color: color-mix(in oklab, oklch(.145 0 0) 50%, #00000000) !important;
-}
-.content-box{
-   background-color: color-mix(in oklab, oklch(.145 0 0) 60%, #00000000) !important; 
-}
-.content-info-text:hover{
+/* .content-info-text:hover{
     color: white !important;
-}
+} */
 /* <------------------------------ contact end ------------------------------> */
 
 
@@ -165,6 +156,6 @@ p{
     color: oklch(.708 0 0) !important;
 }
 .footer-icon:hover{
-    color: white !important;
+    color: oklch(70.2% .183 293.541) !important;
 }
 /* <------------------------------ footer end ------------------------------> */
