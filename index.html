@@ -30,22 +30,22 @@
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center">
         <li class="nav-item d-flex justify-content-center align-items-center me-3">
-          <i class="ri-home-4-line voilet mb-1"></i> <a class="nav-link active nav-text" aria-current="page" href="#">Home</a>
+          <i class="ri-home-4-line voilet mb-1"></i> <a class="nav-link active nav-text" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item d-flex justify-content-center align-items-center me-3">
-          <i class="ri-user-line blue mb-1"></i> <a class="nav-link nav-text" href="#">About</a>
+          <i class="ri-user-line blue mb-1"></i> <a class="nav-link nav-text" href="#about">About</a>
         </li>
         <li class="nav-item d-flex justify-content-center align-items-center me-3">
-          <i class="ri-code-s-slash-line green mb-1"></i> <a class="nav-link nav-text" href="#">Projects</a>
+          <i class="ri-code-s-slash-line green mb-1"></i> <a class="nav-link nav-text" href="#projects">Projects</a>
         </li>
         <li class="nav-item d-flex justify-content-center align-items-center">
-          <i class="ri-mail-line voilet mb-0"></i> <a class="nav-link nav-text" href="#">Contact</a>
+          <i class="ri-mail-line voilet mb-0"></i> <a class="nav-link nav-text" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
-    <div class="theme">
+    <!-- <div class="theme">
       <i class="ri-sun-line text-warning"></i>
-    </div>
+    </div> -->
   </div>
 </nav>
 <!-- <------------------------------ navbar end ------------------------------>
@@ -55,7 +55,7 @@
 
 
 <!-- <------------------------------ section 1 start ------------------------------>
- <section>
+ <section id="home">
     <div class="container  margin-b padding-t">
       <div class="row g-4 p-3 justify-content-center align-items-center">
         <div class="col-12 col-sm-12- col-md-6 col-lg-6 col-xl-6">
@@ -78,7 +78,7 @@
           </div>
           <div class="d-flex flex-wrap gap-4 mb-3">
             <div class="btn-1 btn px-4 py-2">View Projects</div>
-            <div class="btn-2 btn px-4 py-2">Download CV &nbsp; &nbsp; >_</div>
+            <div class="btn-1 btn px-4 py-2">Download CV &nbsp; &nbsp; >_</div>
           </div>
           <div class="d-flex">
             <div class="btn">
@@ -130,7 +130,7 @@
 
 
 <!-- <------------------------------ about me section start ------------------------------>
-<section>
+<section id="about" class="about-box">
   <div class="container p-3 margin-b">
     <div class="text-center mb-5">
       <div class="">
@@ -174,7 +174,7 @@
         </div>
         <div class="d-flex flex-wrap gap-4 pt-3">
           <div class="btn-1 btn px-4 py-2">Download Resume &nbsp; &nbsp; <i class="ri-graduation-cap-line"></i></div>
-          <div class="btn-2 btn px-4 py-2">View Project &nbsp; &nbsp; <i class="ri-code-s-slash-line"></i> </div>
+          <div class="btn-1 btn px-4 py-2">View Project &nbsp; &nbsp; <i class="ri-code-s-slash-line"></i> </div>
         </div>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-4 rounded education-box">
@@ -231,7 +231,7 @@
 
 <!-- <------------------------------ projects section start ------------------------------>
 
-<section>
+<section id="projects" class="project-box">
   <div class="container p-3 margin-b">
     <div class="text-center mb-5">
       <div class="">
@@ -262,6 +262,40 @@
         </div>
       </div>
     </div>
+    <div class="row justify-content-center align-items-center g-4">
+      <div class="col-6 border">
+        <div class="project-box">
+          <img src="img/imdb.png" alt="" class="w-100 pb-4">
+          <div class="d-flex justify-content-between">
+            <div class="btn-1 btn px-4 py-2"><i class="ri-github-line me-2"></i>Code</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 border">
+        <div class="project-box">
+          <img src="img/mailler.png" alt="" class="w-100 pb-4">
+          <div class="d-flex justify-content-between">
+            <div class="btn-1 btn px-4 py-2"><i class="ri-github-line me-2"></i>Code</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 border">
+        <div class="project-box">
+          <img src="img/pestkit.png" alt="" class="w-100 pb-4">
+          <div class="d-flex justify-content-between">
+            <div class="btn-1 btn px-4 py-2"><i class="ri-github-line me-2"></i>Code</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 border">
+        <div class="project-box">
+          <img src="img/black-slate.png" alt="" class="w-100 pb-4">
+          <div class="d-flex justify-content-between">
+            <div class="btn-1 btn px-4 py-2"><i class="ri-github-line me-2"></i>Code</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -272,7 +306,7 @@
 
 
 <!-- <------------------------------ contact section start ------------------------------>
-<section>
+<section id="contact" class="contact-box">
   <div class="container p-3 margin-b">
     <div class="text-center mb-5"> 
       <div class="title mb-4 blue">
@@ -346,7 +380,7 @@
 
 
 <!-- <------------------------------ footer start ------------------------------>
-<footer>
+<footer class="footer-box">
   <div class="container-fluid border py-4">
     <div class="container mb-5 border-bottom">
       <div class="row justify-content-center align-items-center g-4 mb-4">

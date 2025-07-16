@@ -28,9 +28,6 @@ p{
     color: oklch(.145 0 0) !important;
 }
 
-.border-1{
-    border-color:oklch(.439 0 0) !important;
-}
 .w-30{
     width: 35%;
 }
@@ -43,7 +40,6 @@ p{
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
-
 
 /* <------------------------------ section 1 start ------------------------------> */
 
@@ -80,18 +76,6 @@ p{
     background-color: rgba(37, 37, 37, 0.301) !important;
 }
 
-.btn-2{
-    border-radius: 10px;
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
-    transition: all 0.6s !important;
-    background-color: rgba(0, 0, 0, 0.849) !important;
-    color: white !important;
-}
-.btn-2:hover{
-    scale: 1.1;
-    background-color: rgba(37, 37, 37, 0.301) !important;
-}
-
 
 .services{
     transition: all 0.5s !important;
@@ -108,7 +92,9 @@ p{
 
 
 /* <------------------------------ about me start ------------------------------> */
-
+.about-box{
+    background-image: linear-gradient(321deg, rgba(255, 255, 255, 0.842), oklch(95.524% 0.02463 298.503 / 0.452),  oklch(98.386% 0.02225 186.802 / 0.712)) !important;
+}
 .drive-me-box{
     background-color: color-mix(in oklab, white 5%, #00000000);
 }
@@ -127,7 +113,6 @@ p{
 
 
 /* <------------------------------ projects start ------------------------------> */
-
 /* <------------------------------ projects end ------------------------------> */
 
 
@@ -135,9 +120,9 @@ p{
 
 
 /* <------------------------------ contact start ------------------------------> */
-/* .content-info-text:hover{
-    color: white !important;
-} */
+.contact-box{
+    background-image: linear-gradient(321deg,oklch(98.386% 0.02225 186.802 / 0.712), oklch(95.524% 0.02463 298.503 / 0.452),rgba(255, 255, 255, 0.884)) !important;
+}
 /* <------------------------------ contact end ------------------------------> */
 
 
@@ -158,4 +143,8 @@ p{
 .footer-icon:hover{
     color: oklch(70.2% .183 293.541) !important;
 }
+/* .footer-box{
+    background-image: linear-gradient(321deg, rgb(250, 242, 242), oklch(95.524% 0.02463 298.503 / 0.548),  oklch(98.386% 0.02225 186.802 / 0.712)) !important;
+    opacity: 0.9;
+} */
 /* <------------------------------ footer end ------------------------------> */
