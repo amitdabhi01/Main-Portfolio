@@ -113,6 +113,22 @@ p{
 
 
 /* <------------------------------ projects start ------------------------------> */
+.code-btn{
+    /* border: 1px solid black !important; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+    background-color: rgb(207, 221, 226);
+}
+.project-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.project-box{
+    transition:all 0.5s;
+    overflow: hidden !important;
+}
+.project-box:hover{
+    transform: translateY(-10px) !important;
+}
 /* <------------------------------ projects end ------------------------------> */
 
 
